@@ -25,6 +25,7 @@ h1 {
   line-height: 1.5;
   font-family: "Montserrat";
   font-weight: 900;
+  color: #fff;
 }
 
 .container-fluid {
@@ -127,4 +128,32 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 15% 40px;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  padding: 100px 15% 20%;
+  text-align: center;
+}
+
+@media (max-width: 1028px){
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
 }
