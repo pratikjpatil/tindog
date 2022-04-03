@@ -144,10 +144,25 @@ h2 {
 
 #footer{
   background-color: #fff;
-  padding: 100px 15% 20%;
+  padding: 100px 15% 10%;
   text-align: center;
 }
+span{
+  padding: 0 1.5rem;
+}
+.social{
+  margin-bottom: 4rem;
 
+}
+.social-icons{
+  font-size: 20px;
+
+}
+.handles:hover{
+  background-color: #DCDCDC;
+  
+}
+/* media queries */
 @media (max-width: 1028px){
   .iphone{
     position: static;
@@ -155,5 +170,6 @@ h2 {
   }
   #title{
     text-align: center;
+
   }
 }
